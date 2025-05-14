@@ -2,9 +2,11 @@
 **& Report Z1CA_CREATE_MM01_TABLES
 **&---------------------------------------------------------------------*
 **& Description: This program creates SAP and SPRO tables for MM01
-**& with customizable prefix (MVP scope)
+**& with customizable prefix (MVP scope) TEST...TEST
 **&---------------------------------------------------------------------*
  REPORT z1ca_create_mm01_tables.
+
+ data gv_a type i.
 *
 **&---------------------------------------------------------------------*
 **& Selection Screen
